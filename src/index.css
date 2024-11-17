@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  background-image: url("./awd.png");
+}
+.home {
+  width: 100vw;
+  height: 100vh;
+}
+.flex{
+  position: fixed;
+  right: 200px;
+  bottom: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.redirect img{
+width: 12rem;
+}
+.pump{
+  width: 9.2rem !important;
+}
