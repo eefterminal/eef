@@ -3,6 +3,7 @@ import "../index.css";
 import vv from "./vv.png";
 import pump from "./pump.png";
 import x from "./x.png";
+import tel from "./tel.png";
 import song from "./song.mp3";
 const Home = () => {
   return (
@@ -17,6 +18,9 @@ const Home = () => {
           </a>
           <a href="https://x.com/eef_terminal" className="redirect" target="_blank ">
             <img src={x} alt="pumpfun"  className="x"/>
+          </a>
+          <a href="https://x.com/eef_terminal" className="redirect" target="_blank ">
+            <img src={tel} alt="pumpfun"  className="x"/>
           </a>
         </div>
       </div>
