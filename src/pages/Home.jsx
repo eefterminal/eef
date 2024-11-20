@@ -19,7 +19,7 @@ const Home = () => {
           <a href="https://x.com/eef_terminal" className="redirect" target="_blank ">
             <img src={x} alt="pumpfun"  className="x"/>
           </a>
-          <a href="https://x.com/eef_terminal" className="redirect" target="_blank ">
+          <a href="https://t.me/eefterminal" className="redirect" target="_blank ">
             <img src={tel} alt="pumpfun"  className="x"/>
           </a>
         </div>
