@@ -24,3 +24,26 @@ width: 12rem;
 .pump{
   width: 9.2rem !important;
 }
+.play-button {
+  position: fixed;
+  right: 1000px;
+  bottom: 280px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.play-button:hover {
+  background-color: #ffffff;
+  transform: scale(1.05);
+}
+
+.play-button:active {
+  transform: scale(0.95);
+}
